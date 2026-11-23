@@ -1,5 +1,9 @@
 //your JS code here. If required.
-//alert("increment value");
-document.getElementById('counter'); 
-document.getElementById('increment');
+let counter = 0;
+alert("counter value: " + counter);
+function increment() {
+	counter++;
+document.getElementById('counter').innerText = counter; 
+alert("counter value: " + counter);
+}
 
